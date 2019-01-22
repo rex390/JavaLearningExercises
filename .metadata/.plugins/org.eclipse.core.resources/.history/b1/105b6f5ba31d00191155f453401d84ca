@@ -1,6 +1,0 @@
-package GarageExample;
-
-public class Garage 
-{
-	List Vehicles = new ArrayList();
-}
