@@ -1,0 +1,8 @@
+package GarageExample;
+
+import java.util.List;
+
+public class Garage 
+{
+	ArrayList<Vehicles> vehicleList = new ArrayList();
+}

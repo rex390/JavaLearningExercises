@@ -1,0 +1,11 @@
+
+public class IntermediateExercise 
+{
+
+	public int blackJack(int firstNumber,int secondNumber)
+	{
+		
+	}
+	
+	
+}

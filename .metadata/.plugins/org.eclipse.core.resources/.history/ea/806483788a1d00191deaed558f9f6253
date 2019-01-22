@@ -1,0 +1,23 @@
+
+public class ForLoops 
+{
+
+	public void Conditional()
+	{
+		Calculator calc = new Calculator();
+		//for loops
+		printMesaage("for loop using array is below");
+		for(int iter =0;iter<10;iter++)
+		{
+			total = calc.conditionals(iter, intArray[iter], condition);
+			outputMesage = "the values passed in were " + iter + " & " + intArray[iter] + " and the boolean was " + condition + " so the total is: " + total;
+			printMesaage(outputMesage);
+		}
+	}
+	
+	
+	public void printMesaage(String message)
+	{
+		System.out.println(message);		
+	}
+}

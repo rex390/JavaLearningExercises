@@ -1,0 +1,14 @@
+
+public class People 
+{
+	String name;
+	int age;
+	String jobTitle;
+	
+	
+	
+	public String toString()
+	{
+		return ("This person is called " + name + " and he is age " + age + " and his job title is " + jobTitle);
+	}
+}

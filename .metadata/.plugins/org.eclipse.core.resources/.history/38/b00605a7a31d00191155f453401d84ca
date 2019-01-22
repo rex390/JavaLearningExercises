@@ -1,0 +1,6 @@
+package GarageExample;
+
+public class Motorcycle extends Vehicle 
+{
+
+}

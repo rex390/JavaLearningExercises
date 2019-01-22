@@ -1,0 +1,8 @@
+package GarageExample;
+
+public class Vehicle 
+{
+	abstract int wheel;
+	
+	
+}

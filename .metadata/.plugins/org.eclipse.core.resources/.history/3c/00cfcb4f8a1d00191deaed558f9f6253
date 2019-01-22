@@ -1,0 +1,12 @@
+
+public class ForLoops 
+{
+
+	
+	
+	
+	public void printMesaage(String message)
+	{
+		System.out.println(message);		
+	}
+}

@@ -1,0 +1,36 @@
+
+public class IntermediateExercise 
+{
+
+	public int blackJack(int firstNumber,int secondNumber)
+	{
+		if(firstNumber >21 & secondNumber >21)
+		{
+			return 0;
+		}
+		if(firstNumber > secondNumber)
+		{
+			return firstNumber;
+		}
+		else
+		{
+			return secondNumber;
+		}
+	}
+	public int uniqueSum(int firstNumber,int secondNumber,int thirdNumber)
+	{
+		if(firstNumber >21 & secondNumber >21)
+		{
+			return 0;
+		}
+		if(firstNumber > secondNumber)
+		{
+			return firstNumber;
+		}
+		else
+		{
+			return secondNumber;
+		}
+	}
+	
+}

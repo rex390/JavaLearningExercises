@@ -1,0 +1,14 @@
+
+public class People 
+{
+	String name;
+	int age;
+	String jobTitle;
+	
+	
+	
+	public String displayPersonInfo()
+	{
+		return ("This person is called " + name + " and he is age " + age + " and his job title is " + jobTitle;)
+	}
+}

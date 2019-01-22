@@ -1,0 +1,15 @@
+
+public class ForLoops 
+{
+
+	public void Conditional()
+	{
+		
+	}
+	
+	
+	public void printMesaage(String message)
+	{
+		System.out.println(message);		
+	}
+}
