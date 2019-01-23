@@ -87,10 +87,10 @@ public class Record
 		String container = "";
 		People person = new People("","",0);
 		int i = 1;
-		while(fileRecordToRead.size() ==5)
+		while(!container.equals("end"))
 		{
 			container = bufferReader.readLine();	
-			
+			//System.out.println(container);
 			switch(i)
 			{
 			case 1: person.setName(container);
@@ -98,7 +98,6 @@ public class Record
 			case 2: person.setOccupation(container);
 				break;
 			case 3: 
-				System.out.println(container);
 				person.setAge(Integer.parseInt("10"));
 				i =0;
 				fileRecordToRead.add(person);
