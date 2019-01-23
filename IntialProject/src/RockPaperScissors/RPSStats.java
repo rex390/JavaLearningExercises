@@ -5,6 +5,7 @@ class Choices
 	private int rock = 0;
 	private int scissors = 0;
 	private int paper = 0;
+	private String most;
 	public void setRock()
 	{
 		rock++;
@@ -29,9 +30,23 @@ class Choices
 	{
 		return scissors;
 	}
+	public int mostCommonPlayed()
+	{
+		switch(most)
+		{
+			case "Rock": 
+			return getRock();
+			case "Scissors": 
+				return getScissors();
+			case "Paper": 
+				return getPaper();
+		}
+		return 0;
+		
+	}
 	public String mostCommon()
 	{
-		String most = "Rock";
+		most = "Rock";
 		if(rock > scissors & rock > paper)
 		{ 
 			most = "Rock";

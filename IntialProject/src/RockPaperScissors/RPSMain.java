@@ -78,7 +78,7 @@ public class RPSMain {
 		System.out.println("Computer won: " +stats.getCScore() + " times. Win % is " + ((float)stats.getCScore() / (float)stats.getGamesPlayed())*100 + "%");
 		System.out.println("Draws : " +stats.getDScore() + ".  Tie % is " + ((float)stats.getDScore()/ (float)stats.getGamesPlayed())*100 + "%");
 		System.out.println("rock was " + stats.getChoice().getRock() + " scissors was " + stats.getChoice().getScissors() + " paper was " + stats.getChoice().getPaper());
-		System.out.println("the most common is " + stats.getChoice().mostCommon());
+		System.out.println("the most common is " + stats.getChoice().mostCommon() + " the % is " + ((float)stats.getChoice().mostCommonPlayed() / ((float)stats.getGamesPlayed()*2))*100 + "%" );
 	}
 	private static Boolean continueGame()
 	{
