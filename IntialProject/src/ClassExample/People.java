@@ -1,16 +1,23 @@
 package ClassExample;
-
 public class People 
 {
+	
+
 	private String name;
 	private String occupation;
 	private int age;
 	
-	People(String namePassedIn,String occupationPassedIn,int agePassedIn)
+	public People(String namePassedIn,String occupationPassedIn,int agePassedIn)
 	{
 		name = namePassedIn;
 		occupation = occupationPassedIn;
 		age = agePassedIn;
+	}
+	public People(String namePassedIn,String occupationPassedIn,String agePassedIn)
+	{
+		name = namePassedIn;
+		occupation = occupationPassedIn;
+		age = Integer.parseInt(agePassedIn);
 	}
 	public String getPersonName()
 	{
@@ -36,6 +43,10 @@ public class People
 	{
 		this.age = age;
 	}
-
+	public String toString()
+	{
+		String s = (this.getPersonName() + " " + this.getPersonOccupation() + " " + this.getPersonAge());
+		return s;
+	}
 	
 }

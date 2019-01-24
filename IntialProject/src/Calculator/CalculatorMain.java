@@ -30,8 +30,7 @@ public class CalculatorMain
 					float i = Float.parseFloat(character);
 					floatList.add(i);	
 					badInput = false;
-				}
-		
+				}		
 			}	
 			catch (Exception ex) 
 			{

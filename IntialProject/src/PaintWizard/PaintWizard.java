@@ -65,8 +65,8 @@ public class PaintWizard
 	private boolean calculateWhatWastesTheLeast(Paint paintPassedIn,int size,Paint leastPaintWasted,int coveragePassedIn)
 	{
 
-			int i = size - (paintPassedIn.getCoveragePerLitre() * paintPassedIn.getLitre()) ;
-			System.out.println(paintPassedIn.getName() + i);
+			int paintNeededToCoverRoom = size - (paintPassedIn.getCoveragePerLitre() * paintPassedIn.getLitre()) ;
+			System.out.println(paintPassedIn.getName() + paintNeededToCoverRoom);
 		
 		if(coveragePassedIn >= size)
 		{
